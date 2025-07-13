@@ -365,10 +365,10 @@ body {
 
 .pan-handle {
     position: absolute;
-    right: -70px;
+    right: -80px;
     top: 50%;
     transform: translateY(-50%);
-    width: 100px;
+    width: 90px;
     height: 18px;
     background: linear-gradient(145deg, #8b7355, #5d4e3a);
     border-radius: 9px;
@@ -398,11 +398,11 @@ body {
 .pan-handle::after {
     content: '';
     position: absolute;
-    left: -15px;
+    left: -90px;
     top: 50%;
     transform: translateY(-50%);
-    width: 20px;
-    height: 22px;
+    width: 95px;
+    height: 28px;
     background: linear-gradient(145deg, #666, #444);
     border-radius: 50% 0 0 50%;
     box-shadow: 
@@ -1182,8 +1182,8 @@ footer {
     }
     
     .pan-handle {
-        right: -50px;
-        width: 70px;
+        right: -60px;
+        width: 60px;
         height: 12px;
     }
     
@@ -1193,9 +1193,9 @@ footer {
     }
     
     .pan-handle::after {
-        left: -10px;
-        width: 15px;
-        height: 16px;
+        left: -65px;
+        width: 70px;
+        height: 18px;
     }
     
     .code-snippet {
