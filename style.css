@@ -356,15 +356,7 @@ body {
 }
 
 .pan-handle {
-    position: absolute;
-    top: 50%;
-    right: -50px;
-    transform: translateY(-50%);
-    width: 100px;
-    height: 12px;
-    background: linear-gradient(45deg, #8b4513, #a0522d);
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    display: none;
 }
 
 .pan-body {
