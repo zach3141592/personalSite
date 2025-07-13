@@ -355,7 +355,7 @@ body {
 
 .pan {
     position: absolute;
-    bottom: 35px;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     width: 280px;
@@ -1089,7 +1089,7 @@ footer {
     .pan {
         width: 200px;
         height: 200px;
-        bottom: 20px;
+        bottom: 10px;
     }
     
     .pan-body {
